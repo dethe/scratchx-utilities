@@ -522,8 +522,7 @@ Better rank ordering method by Stefan Gustavson in 2012.
       ['r', 'noise %n, %n, %n, %n', 'noise4D', 0.1, 0.2, 0.15, 0.08],
       ['b', 'true', 'true'],
       ['b', 'false', 'false'],
-      ['r', '- %n', 'negate', 1],
-
+      ['r', '- %n', 'negate', 1]
     ],
     menus: {
     },

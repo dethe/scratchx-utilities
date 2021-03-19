@@ -1,6 +1,8 @@
 # scratchx-utilities
 An extension for ScratchX to provide some useful utility blocks
 
+Try it out: <a href="http://scratchx.org/?url=https://dethe.github.io/scratchx-utilities/utility.js">Launch ScratchX</a>
+
 ## Utilities Provided
 
 * noise(x): Simplex noise in 1 dimension
