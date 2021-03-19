@@ -510,6 +510,7 @@ Better rank ordering method by Stefan Gustavson in 2012.
   }
 
   ext.negate = function(x){
+    console.log(this);
     return -x;
   }
 
@@ -519,8 +520,8 @@ Better rank ordering method by Stefan Gustavson in 2012.
       ['r', 'noise %n, %n', 'noise2D', 0.1, 0.2],
       ['r', 'noise %n, %n, %n', 'noise3D', 0.1, 0.2, 0.15],
       ['r', 'noise %n, %n, %n, %n', 'noise4D', 0.1, 0.2, 0.15, 0.08],
-      ['r', 'true', 'true'],
-      ['r', 'false', 'false'],
+      ['b', 'true', 'true'],
+      ['b', 'false', 'false'],
       ['r', '- %n', 'negate', 1],
 
     ],

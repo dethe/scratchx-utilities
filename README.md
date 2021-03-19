@@ -7,6 +7,9 @@ An extension for ScratchX to provide some useful utility blocks
 * noise(x,y): Simplex noise in 2 dimensions
 * noise(x,y,z): Simplex noise in 3 dimensions
 * noise(x,y,z,t): Simplex noise in 4 dimensions
+* true: A boolean that is always true
+* false: A boolean that is always false
+* -x: A reporter for unary negation
 
 ## Credits
 
